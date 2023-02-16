@@ -14,6 +14,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Run JSON Server for Data Table
+
+to generate data on table please run this first
+
+npx json-server --watch src/data/data.json --port 8000
+
+## Run JSON Server for User
+
+to generate data on table please run this first
+
+npx json-server --watch src/data/user.json --port 4000
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
